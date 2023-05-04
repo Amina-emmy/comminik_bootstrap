@@ -1,3 +1,17 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 
+
+$black:#1a1a1d;
+$blue:#334d5c;
+$beige:#eae3d6;
+$gray:#393a3b;
+
+$custom-colors : (
+    "black" : $black ,
+    "blue" : $blue ,
+    "beige" : $beige ,
+    "gray" : $gray ,
+
+);
+$theme-colors : map-merge($theme-colors , $custom-colors);
